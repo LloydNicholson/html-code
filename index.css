@@ -2,7 +2,7 @@
 body {
 	margin: 0px;
 	background-color: #222034;
-	padding-bottom: 1000px;
+	padding-bottom: 100px;
 	text-align: center;
 	font-size: 24px;
   font-family: sans-serif;
@@ -73,7 +73,7 @@ a:hover {
 .down_overlay {
 	display: block;
 	border-radius: 2%;
-  background-color: gray;
+  background-color: #526077;
 	position: relative;
 	top: -5px;
 	padding: -5px;
@@ -81,20 +81,20 @@ a:hover {
   overflow: hidden;
   width: 300px;
   height: 0;
-  transition: .3s ease;
+  transition: 1s ease;
 }
 
 .right_overlay {
 	display: block;
 	border-radius: 2%;
-  background-color: gray;
+  background-color: #526055;
   overflow: hidden;
 	position: relative;
 	z-index: -1;
 	left: -10px;
 	height: 300px;
 	width: 0;
-  transition: .3s ease;
+  transition: 1.5s ease;
 }
 
 .gamebox:hover .down_overlay {
