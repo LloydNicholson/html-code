@@ -94,7 +94,7 @@ a:hover {
 	left: -10px;
 	height: 300px;
 	width: 0;
-  transition: 1.5s ease;
+  transition: 1.3s ease;
 }
 
 .gamebox:hover .down_overlay {
