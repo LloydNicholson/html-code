@@ -1,0 +1,116 @@
+body {
+	margin: 0px;
+	background-color: #222034;
+	padding-bottom: 1000px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	text-transform: lowercase;
+}
+
+.imagediv {
+	margin: 0px;
+	padding-top: 40px;
+	float: top;
+}
+
+.linkdiv {
+	padding-top: 30px;
+	text-align: center;
+}
+
+a:link, a:visited, a:focus {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.gamediv {
+	padding: 40px;
+	margin: 0px;
+}
+
+.gamebox {
+	width: 900px;
+	height: auto;
+	border: 2px dashed gray;
+	border-radius: 2%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  width: 300px;
+	height: 300px;
+	border-radius: 2%;
+	float: left;
+}
+
+.down_overlay {
+	display: block;
+	border-radius: 2%;
+  background-color: gray;
+	position: relative;
+	top: -5px;
+	padding: -5px;
+	z-index: -2;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  transition: .3s ease;
+}
+
+.right_overlay {
+	display: block;
+	border-radius: 2%;
+  background-color: gray;
+  overflow: hidden;
+	position: relative;
+	z-index: -1;
+	left: -10px;
+	height: 300px;
+	width: 0;
+  transition: .3s ease;
+}
+
+.gamebox:hover .down_overlay {
+	height: 50px;
+}
+
+.gamebox:hover .right_overlay {
+	width: 600px;
+}
+
+.down_text {
+	white-space: nowrap;
+  color: white;
+	position: relative;
+  font-size: 20px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.right_text {
+	text-align: left;
+	padding-left: 40px;
+	white-space: nowrap;
+  color: white;
+	position: relative;
+  font-size: 20px;
+  overflow: hidden;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
