@@ -1,9 +1,12 @@
-<script type="text/javascript">
-function todaydate(){
-    var today_date= new Date()
-    var myyear=today_date.getYear()
-    var mymonth=today_date.getMonth()+1
-    var mytoday=today_date.getDate()
-    document.write(myyear+"/"+mymonth+"/"+mytoday)
-}
-</script>
+/*
+Create a JavaScript Date object for the current date and time,
+then extract the desired parts, then join them again in the desired format.
+*/
+var currentDate = new Date(),
+    month = currentDate.getMonth() + 1,
+    day = currentDate.getDate(),
+    year = currentDate.getFullYear(),
+    date = day + "-" + month + "-" + year;
+
+// Output the date to the above HTML element
+document.getElementById("date").innerHTML = date;
