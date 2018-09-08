@@ -12,8 +12,9 @@ body {
 
 /* General changes */
 h2 {
-  text-align: center;
-  font-size: 30px; 
+  text-align: left;
+  font-size: 30px;
+	font-family: serif;
 }
 
 /* Class changes */
