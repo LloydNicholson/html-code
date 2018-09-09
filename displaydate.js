@@ -1,6 +1,7 @@
 /*
-Create a JavaScript Date object for the current date and time,
-then extract the desired parts, then join them again in the desired format.
+Create a JavaScript Date object for the current date
+then extract the desired parts,
+then join them again in the desired format.
 */
 var currentDate = new Date(),
     month = currentDate.getMonth() + 1,
