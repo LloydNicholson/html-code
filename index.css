@@ -14,7 +14,7 @@ body {
 
 h1 {
 	text-align: left;
-	text-indent: 115px;
+	text-indent: 110px;
 	font-weight: normal;
 	font-size: 30px;
 }
@@ -48,9 +48,43 @@ a:hover {
 	text-align: center;
 }
 
-.gamediv {
-	padding: 40px;
+.pixeldiv {
+	padding: 15px;
 	margin: 0px;
+	width: 450px;
+	float: right;
+}
+
+.pixeldiv h1 {
+	text-align: center;
+	position: relative;
+	left: -50px;
+}
+
+.art {
+	padding: 10px;
+	width: 400px;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+.art img {
+	display: block;
+	width: 320px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border: 2px dashed gray;
+	border-radius: 2%;
+	padding: 10px;
+}
+
+.gamediv {
+	padding: 20px;
+	margin: 0px;
+	width: 900px;
+	float: left;
 }
 
 .gamebox {
@@ -59,8 +93,6 @@ a:hover {
 	border: 2px dashed gray;
 	border-radius: 2%;
 	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom: 20px;
 }
 
@@ -92,8 +124,8 @@ a:hover {
   background-color: #526055;
   overflow: hidden;
 	position: relative;
-	z-index: -1;
 	left: -10px;
+	z-index: -1;
 	height: 300px;
 	width: 0;
   transition: 1.3s ease;
