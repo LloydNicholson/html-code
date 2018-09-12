@@ -6,10 +6,15 @@ body {
 	padding-bottom: 100px;
 	padding-top: 20px;
 	text-align: center;
-	font-size: 40px;
-  font-family: computer pixel-7;
+	font-size: 36px;
+  font-family: "computer pixel";
 	color: white;
 	text-transform: lowercase;
+}
+
+@font-face {
+  font-family: "computer pixel";
+  src: url(/Users/lloydnicholson/Downloads/Fonts/computer-pixel-7/computer_pixel-7.ttf) format("truetype");
 }
 
 h1 {
@@ -66,8 +71,10 @@ a:hover {
 .pixeldiv {
 	padding: 15px;
 	margin: 0px;
-	width: 450px;
+	width: 400px;
 	float: right;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .pixeldiv h1 {
@@ -168,11 +175,11 @@ a:hover {
 
 .right_text {
 	text-align: left;
-	white-space: nowrap;
   color: white;
 	position: relative;
   font-size: 34px;
   overflow: hidden;
+	width: 90%;
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
