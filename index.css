@@ -67,10 +67,10 @@ a:hover {
 .pixeldiv {
 	padding: 15px;
 	margin: 0px;
-	width: 400px;
+	width: auto;
 	float: right;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 }
 
 .pixeldiv h1 {
@@ -81,21 +81,17 @@ a:hover {
 
 .art {
 	padding: 10px;
-	width: 400px;
-	margin: 0px;
-	padding-top: 5px;
+	width: 420px;
 }
 
 .art img {
-	display: block;
-	width: 320px;
-	height: 320px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+	display: inline-block;
+	width: 160px;
+	height: 160px;
 	border: 2px dashed gray;
 	border-radius: 2%;
-	padding: 10px;
+	padding: 15px;
+	margin: 5px;
 }
 
 .gamediv {
